@@ -4,7 +4,7 @@ namespace App\Request;
 
 use Illuminate\Http\Request;
 
-class CreateSessionRequest extends GetinformationRequest
+class CreateSessionRequest extends GetInformationRequest
 {
     public array $payment;
     public string $expiration;
